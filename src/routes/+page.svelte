@@ -13,4 +13,4 @@
 <button class="border-4 rounded-xl p-4 bg-blue-600" on:click={getApiResponse}>Click Me for API Magic</button>
 <div>{apiResponse}</div>
 
-<a href='/setup-favorites'>Setup favorites, dawg.</a>
+<a class="btn no-animation" href='/setup-favorites'>Setup favorites, dawg.</a>
