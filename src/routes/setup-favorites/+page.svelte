@@ -1,3 +1,3 @@
-<div>Setup faves, dawg</div>
+<div>Add some faves?</div>
 
 <a href='/'>Back to home</a>
