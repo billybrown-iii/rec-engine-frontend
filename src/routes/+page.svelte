@@ -1,4 +1,6 @@
 <script>
+    // consider daisyUI for component library
+
     let apiResponse = 'placeholder';
 
     async function getApiResponse() {
@@ -8,7 +10,7 @@
     }
 </script>
 
-<h1 class="m-10">Welcome to SvelteKit, Fred</h1>
 <button class="border-4 rounded-xl p-4 bg-blue-600" on:click={getApiResponse}>Click Me for API Magic</button>
 <div>{apiResponse}</div>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<a href='/setup-favorites'>Setup favorites, dawg.</a>
